@@ -458,10 +458,11 @@ const UiverseWrapper = styled.div`
   }
 
   & .column-two {
-    flex: 1;
+    flex: 0 0 auto;
     display: flex;
     flex-direction: column;
     gap: 8px;
+    min-width: fit-content;
   }
 
   & .service-row {
