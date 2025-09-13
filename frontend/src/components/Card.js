@@ -61,7 +61,7 @@ const Card = () => {
                 <div className="services-data">
                   <div className="column-one">
                     <div className="service-row">
-                      <span className="service-icon">
+                      <span className="service-icon icon-categories">
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
                           <polygon points="7 1.17 1.17 4.08 7 7 12.83 4.08 7 1.17"></polygon>
                           <polyline points="1.17 9.92 7 12.83 12.83 9.92"></polyline>
@@ -78,7 +78,7 @@ const Card = () => {
                   </div>
                   <div className="column-two">
                     <div className="service-row">
-                      <span className="service-icon">
+                      <span className="service-icon icon-categories">
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="#10b981" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
                           <circle cx="7" cy="7" r="5.5"></circle>
                           <path d="M7 1a6 6 0 1 0 0 12 6 6 0 0 0 0-12z"></path>
@@ -92,7 +92,7 @@ const Card = () => {
                       </div>
                     </div>
                     <div className="service-row">
-                      <span className="service-icon">
+                      <span className="service-icon icon-categories">
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
                           <rect x="2" y="3" width="8" height="8" rx="1"></rect>
                           <path d="M6 1v2"></path>
