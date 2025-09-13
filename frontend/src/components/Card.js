@@ -387,7 +387,6 @@ const UiverseWrapper = styled.div`
   & .card {
     width: 220px;
     height: min-content;
-    min-height: 240px;
     transition: all .3s;
     position: relative;
     border-radius: .5rem 2rem;
