@@ -452,11 +452,6 @@ const UiverseWrapper = styled.div`
     min-width: fit-content;
   }
 
-  & .column-one .service-row {
-    padding: 6px 8px;
-    width: fit-content;
-  }
-
   & .column-two {
     flex: 0 0 auto;
     display: flex;
