@@ -550,13 +550,37 @@ const UiverseWrapper = styled.div`
     transform: scale(1.05);
   }
 
-  @keyframes pulse-glow {
-    from {
-      filter: drop-shadow(0 0 4px rgba(99, 102, 241, 0.3));
-    }
-    to {
-      filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.5));
-    }
+  & .icon-categories {
+    color: #6366f1;
+    filter: drop-shadow(0 0 6px rgba(99, 102, 241, 0.4));
+    animation: pulse-glow-blue 2s ease-in-out infinite alternate;
+  }
+
+  & .icon-global {
+    color: #10b981;
+    filter: drop-shadow(0 0 6px rgba(16, 185, 129, 0.4));
+    animation: pulse-glow-green 2s ease-in-out infinite alternate;
+  }
+
+  & .icon-packages {
+    color: #f59e0b;
+    filter: drop-shadow(0 0 6px rgba(245, 158, 11, 0.4));
+    animation: pulse-glow-orange 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes pulse-glow-blue {
+    from { filter: drop-shadow(0 0 4px rgba(99, 102, 241, 0.3)); }
+    to { filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.5)); }
+  }
+
+  @keyframes pulse-glow-green {
+    from { filter: drop-shadow(0 0 4px rgba(16, 185, 129, 0.3)); }
+    to { filter: drop-shadow(0 0 8px rgba(16, 185, 129, 0.5)); }
+  }
+
+  @keyframes pulse-glow-orange {
+    from { filter: drop-shadow(0 0 4px rgba(245, 158, 11, 0.3)); }
+    to { filter: drop-shadow(0 0 8px rgba(245, 158, 11, 0.5)); }
   }
 
   & .service-text {
