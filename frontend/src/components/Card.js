@@ -81,7 +81,9 @@ const Card = () => {
                       <span className="service-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                           <circle cx="7" cy="7" r="5.5"></circle>
-                          <path d="m4.9 7 1.4 1.4L9.1 5.6"></path>
+                          <path d="M7 1a6 6 0 1 0 0 12 6 6 0 0 0 0-12z"></path>
+                          <path d="M2 7h10"></path>
+                          <path d="M7 1c1.5 0 3 2.7 3 6s-1.5 6-3 6-3-2.7-3-6 1.5-6 3-6z"></path>
                         </svg>
                       </span>
                       <div className="service-content">
