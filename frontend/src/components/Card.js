@@ -101,7 +101,7 @@ const Card = () => {
                       </span>
                       <div className="service-content">
                         <div className="service-title">باقات مناسبة</div>
-                        <div className="service-description">أسعار تنافسية</div>
+                        <div className="service-description">متنوعة وبأسعار تنافسية</div>
                       </div>
                     </div>
                   </div>
