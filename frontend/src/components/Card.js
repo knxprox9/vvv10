@@ -382,7 +382,7 @@ const StyledWrapper = styled.div`
 const UiverseWrapper = styled.div`
   /* From uiverse.io by @FrM-bot */
   & .card {
-    width: 200px;
+    width: 220px;
     height: min-content;
     transition: all .3s;
     position: relative;
