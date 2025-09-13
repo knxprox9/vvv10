@@ -254,7 +254,10 @@ const StyledWrapper = styled.div`
     opacity: 1;
   }
 
-  .card .content { display: block; margin-top: 0.5rem;
+  .card .content { 
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
     padding: 0px 0.8rem;
     margin-bottom: 0rem;
     direction: rtl;
