@@ -532,25 +532,31 @@ const UiverseWrapper = styled.div`
   }
 
   & .service-icon {
-    font-size: 12px;
-    min-width: 24px;
-    height: 24px;
+    font-size: 18px;
+    min-width: 14px;
     margin-top: -2px;
     line-height: 1;
     vertical-align: top;
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
-    color: white;
-    box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);
+    color: #6366f1;
+    filter: drop-shadow(0 0 6px rgba(99, 102, 241, 0.4));
+    animation: pulse-glow 2s ease-in-out infinite alternate;
     transition: all 0.3s ease;
   }
 
   & .service-icon:hover {
-    transform: scale(1.1);
-    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+    filter: drop-shadow(0 0 10px rgba(99, 102, 241, 0.6));
+    transform: scale(1.05);
+  }
+
+  @keyframes pulse-glow {
+    from {
+      filter: drop-shadow(0 0 4px rgba(99, 102, 241, 0.3));
+    }
+    to {
+      filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.5));
+    }
   }
 
   & .service-text {
