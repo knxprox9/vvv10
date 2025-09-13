@@ -468,7 +468,7 @@ const UiverseWrapper = styled.div`
     backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 85px;
+    width: 88px;
   }
 
   & .service-content {
