@@ -532,14 +532,25 @@ const UiverseWrapper = styled.div`
   }
 
   & .service-icon {
-    font-size: 18px;
-    min-width: 14px;
+    font-size: 12px;
+    min-width: 24px;
+    height: 24px;
     margin-top: -2px;
     line-height: 1;
     vertical-align: top;
     display: inline-flex;
     align-items: center;
-    color: #6366f1;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    color: white;
+    box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);
+    transition: all 0.3s ease;
+  }
+
+  & .service-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
   }
 
   & .service-text {
