@@ -470,11 +470,12 @@ const UiverseWrapper = styled.div`
     align-items: flex-start;
     gap: 2px;
     background: rgba(255, 255, 255, 0.9);
-    padding: 6px 10px;
+    padding: 6px 8px;
     border-radius: 6px;
     backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: fit-content;
   }
 
   & .service-content {
