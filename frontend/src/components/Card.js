@@ -446,18 +446,16 @@ const UiverseWrapper = styled.div`
   }
 
   & .column-one {
-    flex: 0 0 auto;
+    flex: 1;
     display: flex;
     flex-direction: column;
-    min-width: fit-content;
   }
 
   & .column-two {
-    flex: 0 0 auto;
+    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 8px;
-    min-width: fit-content;
   }
 
   & .service-row {
