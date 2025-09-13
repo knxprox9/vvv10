@@ -94,13 +94,14 @@ const Card = () => {
                     <div className="service-row">
                       <span className="service-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-                          <circle cx="7" cy="4" r="3"></circle>
-                          <path d="M3 13h8l-4-9z"></path>
+                          <rect x="2" y="3" width="8" height="8" rx="1"></rect>
+                          <path d="M6 1v2"></path>
+                          <path d="M8 1v2"></path>
                         </svg>
                       </span>
                       <div className="service-content">
                         <div className="service-title">باقات مناسبة</div>
-                        <div className="service-description">متنوعة وبأسعار تنافسية لجميع الاحتياجات</div>
+                        <div className="service-description">أسعار تنافسية</div>
                       </div>
                     </div>
                   </div>
